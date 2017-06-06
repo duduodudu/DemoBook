@@ -12,7 +12,9 @@
 		181672DC1EE6813200C07D1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181672DB1EE6813200C07D1F /* ViewController.m */; };
 		181672DF1EE6813200C07D1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181672DD1EE6813200C07D1F /* Main.storyboard */; };
 		181672E11EE6813200C07D1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181672E01EE6813200C07D1F /* Assets.xcassets */; };
-		181672E41EE6813200C07D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181672E21EE6813200C07D1F /* LaunchScreen.storyboard */; };
+		181672ED1EE6836100C07D1F /* EOCAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 181672EC1EE6836100C07D1F /* EOCAutoDictionary.m */; };
+		181672F01EE68F6500C07D1F /* EOCRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 181672EF1EE68F6500C07D1F /* EOCRectangle.m */; };
+		181672F21EE6925000C07D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181672F11EE6925000C07D1F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +26,12 @@
 		181672DB1EE6813200C07D1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		181672DE1EE6813200C07D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		181672E01EE6813200C07D1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		181672E31EE6813200C07D1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181672E51EE6813200C07D1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181672EB1EE6836100C07D1F /* EOCAutoDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCAutoDictionary.h; sourceTree = "<group>"; };
+		181672EC1EE6836100C07D1F /* EOCAutoDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCAutoDictionary.m; sourceTree = "<group>"; };
+		181672EE1EE68F6500C07D1F /* EOCRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCRectangle.h; sourceTree = "<group>"; };
+		181672EF1EE68F6500C07D1F /* EOCRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCRectangle.m; sourceTree = "<group>"; };
+		181672F11EE6925000C07D1F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +68,13 @@
 				181672D81EE6813200C07D1F /* AppDelegate.m */,
 				181672DA1EE6813200C07D1F /* ViewController.h */,
 				181672DB1EE6813200C07D1F /* ViewController.m */,
+				181672EB1EE6836100C07D1F /* EOCAutoDictionary.h */,
+				181672EC1EE6836100C07D1F /* EOCAutoDictionary.m */,
+				181672EE1EE68F6500C07D1F /* EOCRectangle.h */,
+				181672EF1EE68F6500C07D1F /* EOCRectangle.m */,
 				181672DD1EE6813200C07D1F /* Main.storyboard */,
+				181672F11EE6925000C07D1F /* LaunchScreen.storyboard */,
 				181672E01EE6813200C07D1F /* Assets.xcassets */,
-				181672E21EE6813200C07D1F /* LaunchScreen.storyboard */,
 				181672E51EE6813200C07D1F /* Info.plist */,
 				181672D41EE6813200C07D1F /* Supporting Files */,
 			);
@@ -138,7 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				181672E41EE6813200C07D1F /* LaunchScreen.storyboard in Resources */,
+				181672F21EE6925000C07D1F /* LaunchScreen.storyboard in Resources */,
 				181672E11EE6813200C07D1F /* Assets.xcassets in Resources */,
 				181672DF1EE6813200C07D1F /* Main.storyboard in Resources */,
 			);
@@ -151,8 +161,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181672ED1EE6836100C07D1F /* EOCAutoDictionary.m in Sources */,
 				181672DC1EE6813200C07D1F /* ViewController.m in Sources */,
 				181672D91EE6813200C07D1F /* AppDelegate.m in Sources */,
+				181672F01EE68F6500C07D1F /* EOCRectangle.m in Sources */,
 				181672D61EE6813200C07D1F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,14 +178,6 @@
 				181672DE1EE6813200C07D1F /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		181672E21EE6813200C07D1F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				181672E31EE6813200C07D1F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

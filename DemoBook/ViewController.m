@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import <objc/runtime.h>
+#import "EOCAutoDictionary.h"
+#import "EOCRectangle.h"
 @interface ViewController ()
 
 @end
@@ -16,14 +18,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    EOCAutoDictionary *dict = [EOCAutoDictionary new];
+    dict.date = [NSDate dateWithTimeIntervalSince1970:475372800];
+    NSLog(@"dict.date = %@",dict.date );
+    
+    
+    EOCRectangle *re = [[EOCRectangle alloc] init];
+    NSLog(@"%@",re);
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)testNSError {
+    NSError *error = [[NSError alloc] init];
+//    error.domain ;
+//    error.code ;
+//    error.userInfo ;
+    [self doSomething:&error];
+    
+    
+//    @throw [NSException exceptionWithName:<#(nonnull NSExceptionName)#> reason:<#(nullable NSString *)#> userInfo:<#(nullable NSDictionary *)#>]
 }
+- (BOOL)doSomething:(NSError **)errer {
+    
+    return YES ;
+}
+
 
 
 @end
