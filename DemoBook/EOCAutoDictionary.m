@@ -99,6 +99,10 @@ void autoDictionarySetter(id self , SEL _cmd, id value) {
     return [self myInit];
 }
 
+-(void)dealloc {
+    NSLog(@"%s  %d ",__func__,__LINE__);
+}
+
 
 
 @end

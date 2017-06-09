@@ -15,6 +15,11 @@
 		181672ED1EE6836100C07D1F /* EOCAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 181672EC1EE6836100C07D1F /* EOCAutoDictionary.m */; };
 		181672F01EE68F6500C07D1F /* EOCRectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 181672EF1EE68F6500C07D1F /* EOCRectangle.m */; };
 		181672F21EE6925000C07D1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181672F11EE6925000C07D1F /* LaunchScreen.storyboard */; };
+		181F31411EEA836A00F909EA /* MyNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F31401EEA836A00F909EA /* MyNSObject.m */; };
+		181F31481EEA89B600F909EA /* TextObjA.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F31471EEA89B600F909EA /* TextObjA.m */; };
+		181F314B1EEA89CB00F909EA /* TextObjB.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F314A1EEA89CB00F909EA /* TextObjB.m */; };
+		181F314E1EEA8A2500F909EA /* TextObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F314D1EEA8A2500F909EA /* TextObjC.m */; };
+		181F31511EEA8A3600F909EA /* TextObjD.m in Sources */ = {isa = PBXBuildFile; fileRef = 181F31501EEA8A3600F909EA /* TextObjD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,16 @@
 		181672EE1EE68F6500C07D1F /* EOCRectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCRectangle.h; sourceTree = "<group>"; };
 		181672EF1EE68F6500C07D1F /* EOCRectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCRectangle.m; sourceTree = "<group>"; };
 		181672F11EE6925000C07D1F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		181F313F1EEA836A00F909EA /* MyNSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNSObject.h; sourceTree = "<group>"; };
+		181F31401EEA836A00F909EA /* MyNSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNSObject.m; sourceTree = "<group>"; };
+		181F31461EEA89B600F909EA /* TextObjA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextObjA.h; sourceTree = "<group>"; };
+		181F31471EEA89B600F909EA /* TextObjA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextObjA.m; sourceTree = "<group>"; };
+		181F31491EEA89CB00F909EA /* TextObjB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextObjB.h; sourceTree = "<group>"; };
+		181F314A1EEA89CB00F909EA /* TextObjB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextObjB.m; sourceTree = "<group>"; };
+		181F314C1EEA8A2500F909EA /* TextObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextObjC.h; sourceTree = "<group>"; };
+		181F314D1EEA8A2500F909EA /* TextObjC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextObjC.m; sourceTree = "<group>"; };
+		181F314F1EEA8A3600F909EA /* TextObjD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextObjD.h; sourceTree = "<group>"; };
+		181F31501EEA8A3600F909EA /* TextObjD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextObjD.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +83,13 @@
 				181672D81EE6813200C07D1F /* AppDelegate.m */,
 				181672DA1EE6813200C07D1F /* ViewController.h */,
 				181672DB1EE6813200C07D1F /* ViewController.m */,
+				181F313F1EEA836A00F909EA /* MyNSObject.h */,
+				181F31401EEA836A00F909EA /* MyNSObject.m */,
 				181672EB1EE6836100C07D1F /* EOCAutoDictionary.h */,
 				181672EC1EE6836100C07D1F /* EOCAutoDictionary.m */,
 				181672EE1EE68F6500C07D1F /* EOCRectangle.h */,
 				181672EF1EE68F6500C07D1F /* EOCRectangle.m */,
+				181F31451EEA898B00F909EA /* week */,
 				181672DD1EE6813200C07D1F /* Main.storyboard */,
 				181672F11EE6925000C07D1F /* LaunchScreen.storyboard */,
 				181672E01EE6813200C07D1F /* Assets.xcassets */,
@@ -87,6 +105,21 @@
 				181672D51EE6813200C07D1F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		181F31451EEA898B00F909EA /* week */ = {
+			isa = PBXGroup;
+			children = (
+				181F31461EEA89B600F909EA /* TextObjA.h */,
+				181F31471EEA89B600F909EA /* TextObjA.m */,
+				181F31491EEA89CB00F909EA /* TextObjB.h */,
+				181F314A1EEA89CB00F909EA /* TextObjB.m */,
+				181F314C1EEA8A2500F909EA /* TextObjC.h */,
+				181F314D1EEA8A2500F909EA /* TextObjC.m */,
+				181F314F1EEA8A3600F909EA /* TextObjD.h */,
+				181F31501EEA8A3600F909EA /* TextObjD.m */,
+			);
+			name = week;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,10 +195,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				181672ED1EE6836100C07D1F /* EOCAutoDictionary.m in Sources */,
+				181F31511EEA8A3600F909EA /* TextObjD.m in Sources */,
+				181F31411EEA836A00F909EA /* MyNSObject.m in Sources */,
+				181F31481EEA89B600F909EA /* TextObjA.m in Sources */,
 				181672DC1EE6813200C07D1F /* ViewController.m in Sources */,
 				181672D91EE6813200C07D1F /* AppDelegate.m in Sources */,
 				181672F01EE68F6500C07D1F /* EOCRectangle.m in Sources */,
+				181F314E1EEA8A2500F909EA /* TextObjC.m in Sources */,
 				181672D61EE6813200C07D1F /* main.m in Sources */,
+				181F314B1EEA89CB00F909EA /* TextObjB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +356,7 @@
 				181672EA1EE6813200C07D1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

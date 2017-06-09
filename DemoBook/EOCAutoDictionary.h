@@ -6,9 +6,9 @@
 //  Copyright © 2017年 duWeiQuan. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "MyNSObject.h"
 
-@interface EOCAutoDictionary : NSObject
+@interface EOCAutoDictionary : MyNSObject
 /**  */
 @property (nonatomic,strong) NSString *string ;
 @property (nonatomic,strong) NSNumber *number ;

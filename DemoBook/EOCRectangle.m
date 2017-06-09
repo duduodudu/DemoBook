@@ -46,7 +46,7 @@
 -(NSString *)description {
     NSLog(@"-----------");
     NSLog(@"%@",[super description]);
-    [[self class] getAllProperties:self];
+    [self printAllPropertiesAndValues];
     NSLog(@"------------------");
     NSLog(@"%@",[self properties_aps]);
     return @"-----------" ;
@@ -80,7 +80,7 @@
     for (int i = 0; i < count; i++) {
         Method temp_f = mothList_f[i];
         // method_getImplementation  由Method得到IMP函数指针
-        IMP imp_f = method_getImplementation(temp_f);
+//        IMP imp_f = method_getImplementation(temp_f);
         
         // method_getName由Method得到SEL
         SEL name_f = method_getName(temp_f);
@@ -115,6 +115,23 @@
     }
     free(properties);
     return props;
+}
+
+/// 获取所有的属性名字
+- (void)printAllPropertiesAndValues
+{
+    NSLog(@"line:%04d method:%s",__LINE__ ,__func__ );
+    u_int count = 0 ;
+    objc_property_t *properties  =class_copyPropertyList([self class], &count);
+    NSMutableArray *propertiesArray = [NSMutableArray arrayWithCapacity:count];
+    for (int i = 0; i < count; i ++)
+    {
+        const char* propertyName = property_getName(properties[i]);
+        NSString *propertyString = [NSString stringWithUTF8String: propertyName] ;
+        NSLog(@" %@ = %@ \n",propertyString,[self valueForKey:propertyString]);
+        [propertiesArray addObject:[NSString stringWithUTF8String: propertyName]];
+    }
+    free(properties);
 }
 
 
