@@ -11,13 +11,13 @@
 																			 <key>kind</key>
 																			 <string>software-package</string>
 																			 <key>url</key>
-																			 <string>http://192.168.1.125:12000/Products/HosUserNanHai.ipa</string>
+																			 <string>http://121.11.18.162:9355/app/HosDoctorShanTou.ipa</string>
 																	 </dict>
 													 </array>
 													 <key>metadata</key>
 													 <dict>
 															 <key>bundle-identifier</key>
-															 <string>com.hopebridge.HosUser</string>
+															 <string>com.hopebridge.HosDoctor</string>
 															 <key>bundle-version</key>
 															 <string>3.3</string>
 															 <key>kind</key>
